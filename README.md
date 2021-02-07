@@ -17,3 +17,6 @@ com esse comando é possível compilar o código:
   javac src/main/java/desafio/App.java src/main/java/desafio/Challenge.java src/main/java/desafio/Item.java src/main/java/utils/Utils.java -d target/classes
 com o comando abaixo é possível rodar o código: 
   java -Dfile.encoding=UTF-8 -cp target/classes desafio.App
+  
+ 
+OBS.: Trocar o List<T> pelo conjunto de Set<T>, e fazer testes para mensurar a performance.
